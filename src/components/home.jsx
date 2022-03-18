@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Buscador from "./buscador";
 import Button from "@mui/material/Button";
+import Imagenes from "./imagenes";
 
 const styles = {
   paragraph: {
@@ -18,9 +19,11 @@ function Home() {
   // Declara una nueva variable de estado, que llamaremos "count".
   const [count, setCount] = useState(0);
 
+  const [dataValue, setDataValue] = useState('')
+
   useEffect(() => {
-    console.log(count)
-  })
+    console.log(count);
+  });
 
   return (
     <div className="container">
