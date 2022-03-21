@@ -16,7 +16,7 @@ function Header() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Minando as cripto
+           My Gallery
           </Typography>
           {/* <Button color="inherit">Login</Button> */}
         </Toolbar>
