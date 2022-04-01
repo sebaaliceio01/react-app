@@ -21,7 +21,7 @@ form.row {
 .photos {
   margin: 15px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
 }
 .imagenes {
@@ -42,4 +42,14 @@ form.row {
 .image-grid {
   border: 1px solid rgba(128, 128, 128, 0.281);
   padding: 15px;
+}
+.dialog-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+a, a:active, a:visited {
+  text-decoration: none;
+  color: black;
 }

@@ -20,7 +20,7 @@ function Imagenes(props) {
   const [photographerData, setPhotographerData] = useState()
 
   const [datos, setDatos] = useState({
-    search: "Random",
+    search: "Nature",
   });
 
   const handleChange = (event, value) => {
@@ -108,7 +108,7 @@ function Imagenes(props) {
         </div>
         <div className="popular">
           <p>Results: {totalCount}</p>
-          <p>Popular search:</p>
+          {/* <p>Popular search:</p> */}
         </div>
       </form>
       <div className="pagination">
