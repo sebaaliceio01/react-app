@@ -32,9 +32,9 @@ form.row {
   color: white;
 }
 .pagination {
-    display: flex;
-    justify-content: center;
-    margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
 }
 .info-button {
   text-align: end;
@@ -43,13 +43,79 @@ form.row {
   border: 1px solid rgba(128, 128, 128, 0.281);
   padding: 15px;
 }
+
 .dialog-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
 }
-a, a:active, a:visited {
+
+a,
+a:active,
+a:visited {
   text-decoration: none;
   color: black;
+}
+
+.h-banner {
+  background-image: url(../assets/norway-g836653191_1920.jpg);
+  background-position: center;
+  padding: 100px 55px;
+  display: flex;
+  justify-content: center;
+}
+
+.h-center-banner {
+  background-color: rgba(0, 0, 0, 0.457);
+  padding: 25px;
+  width: 45%;
+}
+
+.h-title {
+  text-align: center;
+  color: white;
+}
+
+.h-subtitle {
+  text-align: center;
+  color: white;
+}
+
+.h-info {
+  text-align: center;
+}
+
+.education,
+.about-me {
+  display: flex;
+  justify-content: center;
+}
+
+.max-width {
+  width: 70%;
+  font-size: 20px;
+  border-bottom: 1px solid #1976d274;
+  padding: 25px;
+}
+
+.h-about-me {
+  margin: 25px 0 0 0;
+}
+
+ul.ul-flex {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+ul.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px; 
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

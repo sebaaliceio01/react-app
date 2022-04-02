@@ -1,12 +1,16 @@
 import React, { useEffect, useState } from "react";
-import Imagenes from "../images/imagenes";
 
 function Home() {
   return (
     <div className="container">
-      <div className="jumbotron">
-        <div className="paragraph">
-          <Imagenes />
+      <div className="h-banner">
+        <div className="h-center-banner">
+          <div className="h-title">
+            <h1>SEBASTIAN ALICEIO</h1>
+          </div>
+          <div className="h-subtitle">
+            <h3>Web Developer</h3>
+          </div>
         </div>
       </div>
     </div>
